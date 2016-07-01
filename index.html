@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO Application</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row titleApp">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h1>TODO APP</h1>
+			</div>
+		</div>
+		<div class="row subTitle">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h3>AGREGA TU TAREA</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<textarea id="inputText" rows="3" cols="130"></textarea>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<button type="button" class="btn btn-success add" onclick="agregarTarea()"><i class="fa fa-pencil" aria-hidden="true"></i> Añadir tarea</button>
+						<button type="button" class="btn btn-danger clean" onclick="limpiarTarea()" id="aqui"><i class="fa fa-refresh" aria-hidden="true"></i> Limpiar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h4>LISTA DE TAREAS</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div id="listaTarea">
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+* {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.titleApp{
+	background-color: #3F5765;
+	padding: 3%;
+}
+h1{
+	color: #BDD4DE;
+	font-weight: bold;
+}
