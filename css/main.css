@@ -6,7 +6,45 @@
 	background-color: #3F5765;
 	padding: 3%;
 }
+body{
+	background-color: #BDD4DE;
+}
+#inputText{
+	width: 40%;
+	padding: 10px;
+	border: solid 2px #3F5765;
+}
 h1{
 	color: #BDD4DE;
 	font-weight: bold;
+}
+h3{
+	font-size: 2em;
+	color: #3F5765;
+	font-weight: bold;
+}
+h4{
+	font-size: 1.7em;
+}
+.tachar{
+	text-decoration: line-through;
+	margin: 0 10px;
+}
+.caja{
+	border: #047DA5 solid 3px;
+	padding: 10px;
+	width: 80%;
+	margin: 10px auto;
+	display: inline-block;
+	word-wrap: break-word;
+	text-align: left;
+}
+.basurero{
+	font-size: 1.2em;
+}
+.add{
+	margin: 15px 10px;
+}
+.clean{
+	margin-top: 15px 10px;
 }
